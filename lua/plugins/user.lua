@@ -4,7 +4,7 @@
 ---@type LazySpec
 return {
 
-  { "mrjones2014/smart-splits.nvim" },
+  { "mrjones2014/smart-splits.nvim", lazy = false },
   {
     "shellRaining/hlchunk.nvim",
     event = { "BufReadPre", "BufNewFile" },
