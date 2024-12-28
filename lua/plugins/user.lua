@@ -5,18 +5,18 @@
 return {
 
   { "mrjones2014/smart-splits.nvim", lazy = false },
-  {
-    "shellRaining/hlchunk.nvim",
-    event = { "BufReadPre", "BufNewFile" },
-    config = function()
-      require("hlchunk").setup {
-        chunk = {
-          enable = true,
-        },
-        indent = {
-          enable = true,
-        },
-      }
-    end,
-  },
+  --  {
+  --    "shellRaining/hlchunk.nvim",
+  --    event = { "BufReadPre", "BufNewFile" },
+  --    config = function()
+  --      require("hlchunk").setup {
+  --        chunk = {
+  --          enable = true,
+  --        },
+  --        indent = {
+  --          enable = true,
+  --        },
+  --      }
+  --    end,
+  --  },
 }
